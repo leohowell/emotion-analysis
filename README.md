@@ -18,9 +18,9 @@ emotion-analysis
 jd_spider.py支持JD的评论数据的抓取，会根据商品名字生成csv放在dataset中。有时候连接失败，可能需要打开京东网页再试。如果重新抓取需要删除csv文件。
 商品id可以在网址中获取，支持一次性抓取多个商品。
 
-### 词云生成工具
+### 词性标注工具
 
-word_cloud.py支持返回DataFrame格式的数据，包含分词和词性标注等等，还包含一个生成词云图片的工具。
+word_property.py支持返回DataFrame格式的数据，包含分词和词性标注等等。
 
 ### 模型结果
 

@@ -112,5 +112,6 @@ class JdSpider:
 
 if __name__ == "__main__":
     # 这里写商品id，有时候连接失败，可能需要打开京东网页再试
-    jd = JdSpider(['3914278'])
+    # jd = JdSpider(['3914278'])
+    jd = JdSpider(['100007627021'])
     jd.get_jd_comment()
